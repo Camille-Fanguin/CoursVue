@@ -1,2 +1,2 @@
 # keuUpVue
-CDA: events keyup
+CDA: v-on:events

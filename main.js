@@ -1,19 +1,18 @@
 Vue.createApp({
     data() {
         return {
-            
+            tap: "",
+            echap: ""
         };
     },
     methods: {
-        tapEvent() {
-            para = document.querySelectorAll('p');
-            input = document.querySelectorAll('input');
-            para[0].textContent = input[0].value;
+        tapEvent(event) {
+            console.log(event);
+            this.tap = event.target.value;
         },
-        echapEvent() {
-            para = document.querySelectorAll('p');
-            input = document.querySelectorAll('input');
-            para[1].textContent = input[1].value;
+        echapEvent(event) {
+            console.log(event);
+            this.echap = event.target.value;
         },
         alertMsg() {
             return alert("Petite alerte: Hello World");

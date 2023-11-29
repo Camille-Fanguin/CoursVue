@@ -9,10 +9,10 @@
 <body id="app">
     <div class="text-center">
         <h1>keyUpVue</h1>
-        <input v-on:keyup="tapEvent()" type="text" placeholder="Hello">
-        <p></p>
-        <input v-on:keyup.esc="echapEvent()" placeholder="World" type="text">
-        <p></p>
+        <input v-on:keyup="tapEvent($event)" type="text" placeholder="Hello">
+        <p>{{tap}}</p>
+        <input v-on:keyup.esc="echapEvent($event)" placeholder="World" type="text">
+        <p>{{echap}}</p>
         <button type="submit" v-on:click.left="alertMsg()">Alerte</button>
     </div>
     <script src="https://unpkg.com/vue@next"></script>

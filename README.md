@@ -1,7 +1,2 @@
-# coursVue
-CDA: divers exos Vue
-
-# CoursVue
-### CDA: divers exercices Vue
-
-- Exo1: appVue
+# bindingVue
+CDA: app qui gère les données d'un utilisateur

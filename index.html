@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>bindingVue</title>
 </head>
 <body id="app">
+    <div class="text-center">
+        <h1>bindingVue</h1>
+        <img v-bind:src="theImage" alt="test">
+        <p>Nom: {{theName}}</p>
+        <input type="text" v-bind:value="theName">
+        <p>Âge: {{theAge}} ans</p>
+        <p>Âge+10: {{plusTen()}} ans</p>
+        <p>Nbr fétiche du moment: {{fetiche}}</p>
+
+    </div>
+
     <script src="https://unpkg.com/vue@next"></script>
     <script src="main.js"></script>
     <!-- Bootstrap JavaScript Libraries -->

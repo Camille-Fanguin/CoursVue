@@ -1,7 +1,7 @@
 Vue.createApp({
     data() {
         return {
-            nameUSer: "hey",
+            nameUser: "hey",
             number: 0
         };
     },

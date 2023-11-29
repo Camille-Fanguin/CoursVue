@@ -10,8 +10,7 @@ Vue.createApp({
     },
     methods: {
         plusTen() {
-            let plus = this.theAge + 10;
-            return plus;
+            return this.theAge + 10;
         }
     } 
 }).mount('#app');

@@ -1,6 +1,3 @@
-# coursVue
-CDA: divers exos Vue
-
 # CoursVue
 ### CDA: divers exercices Vue
 

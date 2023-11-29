@@ -1,2 +1,2 @@
 # appVue
-CDA: créations de plusieurs variables
+CDA: création de plusieurs variables

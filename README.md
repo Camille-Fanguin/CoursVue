@@ -3,3 +3,4 @@
 
 - Exo1: appVue
 - Exo2: randomVue
+- Exo3: bindingVue

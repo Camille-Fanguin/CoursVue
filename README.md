@@ -4,3 +4,5 @@
 - Exo1: appVue
 - Exo2: randomVue
 - Exo3: bindingVue
+- Exo4: compteurVue
+- Exo5: keyupVue

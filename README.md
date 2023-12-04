@@ -1,7 +1,2 @@
-# coursVue
-CDA: divers exos Vue
-
-# CoursVue
-### CDA: divers exercices Vue
-
-- Exo1: appVue
+# ClassVue
+CDA: les 2 cartes, mais avec des classes

@@ -11,4 +11,4 @@
 - Exo8: styleVue
 - Exo9: classVue
 - Exo10: dynamiqueVue
-- Exo11: movieVue
+- Exo11: moviesVue

@@ -2,7 +2,8 @@ Vue.createApp({
     data() {
         return {
             number: 0,
-            text: "Trouve le nombre mystère"
+            text: "Trouve le nombre mystère",
+            mystery: Math.floor(Math.random()*25)
         };
     },
     methods: {
@@ -15,11 +16,11 @@ Vue.createApp({
     },
     watch:{
             number(value) {
-            if(this.number < 7) {
+            if(this.number < this.mystery) {
                 return this.text = "Essaye encore";
-            } else if (this.number == 7) {
+            } else if (this.number == this.mystery) {
                 return this.text = "Nice, " + this.number + " était le nombre mystère";
-            } else if (this.number > 7) {
+            } else if (this.number > this.mystery) {
                 return this.text = "Tu as dépassé le nombre mystère";
             }
         }

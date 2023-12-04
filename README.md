@@ -10,3 +10,4 @@
 - Exo7: winnerVue
 - Exo8: styleVue
 - Exo9: classVue
+- Exo10: dynamiqueVue

@@ -8,11 +8,10 @@ Vue.createApp({
     methods: {
         selectionCard(uneCard) {
             if(uneCard == 1) {
-                this.selectCard1 = true;
-                console.log("chaussetet");
+                this.selectCard1 = !this.selectCard1;
             } else if (uneCard == 2) {
-                this.selectCard2 = true;
-            }
+                this.selectCard2 = !this.selectCard2;
+            } 
         }
     }
 }).mount('#app');

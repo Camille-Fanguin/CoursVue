@@ -8,3 +8,5 @@
 - Exo5: keyupVue
 - Exo6: problemVue
 - Exo7: winnerVue
+- Exo8: styleVue
+- Exo9: classVue

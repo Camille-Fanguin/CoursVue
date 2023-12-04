@@ -1,7 +1,2 @@
-# coursVue
-CDA: divers exos Vue
-
-# CoursVue
-### CDA: divers exercices Vue
-
-- Exo1: appVue
+# dynamiqueVue
+CDA: 2 input qui permettent de jouer avec des classes principalement

@@ -2,12 +2,12 @@ Vue.createApp({
     data() {
         return {
             mesFilms: [],
-            nomFilm: ''
+            nomFilm: '',
         };
     },
     methods: {
         addMovie() {
-            return this.mesFilms.push(this.nomFilm);
+            return this.mesFilms.push(this.newMovie);
         }
     }
 }).mount('#app');

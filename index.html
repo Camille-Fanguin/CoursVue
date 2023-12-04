@@ -12,8 +12,8 @@
     </div>
 
     <h1>WatchList (Films à voir)</h1>
-    <input type="text" v-model="nomFilm">
-    <button v-on:click="addMovie()">Ajouter à votre WatchList</button>
+    <input class="input-group-text" type="text" v-model="nomFilm">
+    <button v-on:click="addMovie()" class="btn btn-primary">Ajouter à votre WatchList</button>
     <h2 v-if="mesFilms != 0">{{nomFilm}}</h2>
     <p v-else>Pas encore de film dans votre WatchList</p>
 

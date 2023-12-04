@@ -31,7 +31,11 @@
         </div>
     </div>
 
-    <div>Cool</div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-3 justify-content-center">
+        <div v-bind:style="{color: selectCard1?'red':'cyan', fontSize: '30px'}">Cool</div>
+        <div v-bind:style="{color: selectCard2?'green':'violet', fontSize: '30px'}">Cool</div>
+    </div>
+    
 </div>
 <script src="https://unpkg.com/vue@next"></script>
     <script src="main.js"></script>

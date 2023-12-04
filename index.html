@@ -9,9 +9,10 @@
 <body id="app">
     <div class="text-center">
         <h1>winnerVue</h1>
-        <button  type="button" class="btn btn-success" v-on:click="addOne()">+1</button>
-        <button  type="button" class="btn btn-danger" v-on:click="addFive()">+5</button>
+        <button  type="button" class="btn btn-success" v-on:click="addOne(),addTour()">+1</button>
+        <button  type="button" class="btn btn-danger" v-on:click="addFive(),addTour()">+5</button>
         <h3>Nbr: {{number}}</h3>
+        <h3>Nbr de tours: {{tour}}</h3>
         <p>{{text}}</p>
     </div>
     <script src="https://unpkg.com/vue@next"></script>

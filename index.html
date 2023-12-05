@@ -24,7 +24,7 @@
     <input type="text" v-model="article">
     <button class="btn btn-success" v-on:click="addArticle()">Ajouter à votre liste de courses</button>
     <ul v-bind:class="{hiddenList: showing, showList: false}">
-        <li v-for="course in listCourses">{{course}}</li>
+        <li v-for="course in listCourses" v-on:click="removeArticle()">{{course}}</li>
     </ul>
     <button class="btn btn-primary" v-on:click="showingList()">Masquer la liste</button>
 

@@ -7,7 +7,7 @@ Vue.createApp({
     },
     methods: {
         addMovie() {
-            return this.mesFilms.push(this.newMovie);
+            return this.mesFilms.push(this.nomFilm);
         }
     }
 }).mount('#app');

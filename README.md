@@ -12,3 +12,4 @@
 - Exo9: classVue
 - Exo10: dynamiqueVue
 - Exo11: moviesVue
+- Exo12: listMoviesVue

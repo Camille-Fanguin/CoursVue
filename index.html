@@ -21,11 +21,19 @@
         <h1>coursesVue</h1>
     </div>
     <h2>La liste des courses</h2>
-    <input type="text" v-model="article">
-    <button class="btn btn-success" v-on:click="addArticle()">Ajouter à votre liste de courses</button>
-    <ul v-bind:class="{hiddenList: showing, showList: false}">
-        <li v-for="course in listCourses" v-on:click="removeArticle()">{{course}}</li>
-    </ul>
+
+    <div>
+        <input type="text" v-model="article" class="form-control">
+        <button class="btn btn-success" v-on:click="addArticle()">Ajouter à votre liste de courses</button>
+    </div>
+    
+    <div v-bind:class="{hiddenList: showing, showList: false}">
+        <h3>Articles:</h3>
+        <ul>
+            <li v-for="(course,unIndex) in listCourses" v-bind:key="course" v-on:click="removeArticle(unIndex)">{{course}}</li>
+        </ul>
+    </div>
+
     <div>
         <button class="btn btn-primary" v-on:click="showingList()">{{stateList}}</button>
     </div>

@@ -4,7 +4,8 @@ Vue.createApp({
             listCourses: [],
             article: '',
 
-            showing: false
+            showing: false,
+            stateList: 'Masquer la liste'
         };
     },
     methods: {
@@ -15,6 +16,11 @@ Vue.createApp({
             return this.listCourses.splice(unIndex, 1);
         },
         showingList() {
+            if(this.showing == true) {
+                this.stateList = 'Masquer la liste';
+            } else {
+                this.stateList = 'Afficher la liste';
+            }
             return this.showing = !this.showing;
         }
     }

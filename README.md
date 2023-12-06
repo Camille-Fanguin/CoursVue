@@ -13,3 +13,4 @@
 - Exo10: dynamiqueVue
 - Exo11: moviesVue
 - Exo12: listMoviesVue
+- Exo13: coursesVue

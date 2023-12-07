@@ -14,3 +14,4 @@
 - Exo11: moviesVue
 - Exo12: listMoviesVue
 - Exo13: coursesVue
+- Exo14: friendsVue
